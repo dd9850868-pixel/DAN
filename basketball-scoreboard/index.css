@@ -74,14 +74,14 @@ text-align: center;
 
 
 
-#guestSct {
+#awaySct {
   display:flex;
 flex-direction:column;
 align-items: center;
 margin: 20px;
 
 }
-#guest {
+#away {
    color: #EEEEEE;
   margin: 0px auto;
 }

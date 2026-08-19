@@ -34,21 +34,21 @@ function btn4 () {
   count2 = count2 + 1
   par2.textContent = count2
   
-  console.log ("guest-button+1Clicked")
+  console.log ("AWAY-button+1Clicked")
 
 }
 function btn5 () {
   count2 = count2 + 2
   par2.textContent = count2
   
-  console.log ("guest-button+2Clicked")
+  console.log ("AWAY-button+2Clicked")
 
 }
 function btn6 () {
   count2 = count2 + 3
   par2.textContent = count2
   
-  console.log ("guest-button+3Clicked")
+  console.log ("AWAY-button+3Clicked")
 
 }
 
