@@ -1,0 +1,157 @@
+#scrBrd {
+  background-color: #1B244A;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width:500px;
+    margin-left: auto;
+  margin-right: auto;
+  border: 2px solid brown;
+  border-radius: 10px
+ 
+}
+#homeSct {
+display:flex;
+flex-direction:column;
+align-items: center;
+margin: 20px;
+
+}
+#home {
+  color: #EEEEEE;
+  margin: 0px auto;
+
+}
+#paragraph {
+  background-color: #080001;
+  width: 155;
+height: 120;
+top: 125px;
+left: 82px;
+opacity: 1;
+border-radius: 5px;
+margin: 10px auto;
+ color: #F94F6D;
+  font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+line-height: 126.67px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#firstbtn {
+  display: flex;
+  flex-direction: row;
+}
+#btn1 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+  
+}
+#btn2 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+}
+#btn3 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+}
+
+
+
+
+#guestSct {
+  display:flex;
+flex-direction:column;
+align-items: center;
+margin: 20px;
+
+}
+#guest {
+   color: #EEEEEE;
+  margin: 0px auto;
+}
+#paragraph2 {
+  background-color: #080001;
+  width: 155;
+height: 120;
+top: 125px;
+left: 82px;
+opacity: 1;
+border-radius: 5px;
+margin: 10px auto;
+ color: #F94F6D;
+  font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+line-height: 126.67px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#secondbtn {
+   display: flex;
+  flex-direction: row;
+
+}
+#btn4 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+  
+}
+
+#btn5 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+}
+#btn6 {
+  margin: 0 2px;
+  border: 2px solid #9AABD8;
+  background: none;
+  border-radius: 7px;
+  padding: 10px;
+  color:  #9AABD8;
+}
+#resetBtn {
+
+  color : #F94F6D;;
+  background: 30px linear-gradient(rgb(52, 52, 99) , rgb(185, 116, 116));
+  border: none;
+  margin:90px 0;
+  box-shadow: 5px 5px 5px red;
+  border-radius: 7px;
+  animation: glow 1.5s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #f05454;
+    }
+    100% {
+        box-shadow: 0 0 20px #f05454, 0 0 30px #f05454;
+    }
+}
