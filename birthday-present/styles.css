@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  font-family: 'Happy-monkey', cursive;
+  background: linear-gradient(rgb(63, 199, 63), rgb(58, 58, 136));
+   color: orange;
+  text-shadow: 0 0 5px black;
+  
+  
+  
+}
+
+
+body:hover {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='%23ff69b4'><path d='M12 2a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V3a1 1 0 0 1 1-2zm-6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3H6V9zm-1 5h14v7a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7z'/></svg>") 0 0, pointer;
+}
+h1 {
+text-shadow: 0 0 5px black;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+
+
+}
+#age  {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  margin: 10px 0 20px 0;
+  text-shadow: 0 0 5px black;
+}
+#date {
+  background: red;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+  text-shadow: 0 0 5px black;
+}
+
+
+#img {
+  border-radius: 50%;
+  width: 150px;
+  border: 4px solid purple;
+  
+}
+.gift-img {
+  width:400px;
+  height: 400px;
+  padding: 3px;
+  border: 6px solid white;
+  border-radius: 3px;
+  background-image: url("images/gift.png");
+  background-size: cover;
+  margin: 0 auto;
+
+}
+
+.gift-img:hover {
+ background-image: url("images/images.png")
+}
+
+.img2 {
+  width:400px;
+  height: 400px;
+  padding: 3px;
+  border: 6px solid white;
+  border-radius: 3px;
+  background-image: url("images/gift.png");
+  background-size: cover;
+  margin: 0 auto;
+
+}
+#img2-shocked:hover {
+  background-image: url("images/shocked.webp");
+}
+.img3 {
+  width:400px;
+  height: 400px;
+  padding: 3px;
+  border: 6px solid white;
+  border-radius: 3px;
+  background-image: url("images/gift.png");
+  background-size: cover;
+  margin: 0 auto;
+
+}
+#img3-aura:hover {
+  background-image: url("images/aura.webp");
+}
+.img4 {
+  width:400px;
+  height: 400px;
+  padding: 3px;
+  border: 6px solid white;
+  border-radius: 3px;
+  background-image: url("images/gift.png");
+  background-size: cover;
+  margin: 0 auto;
+
+}
+#img4-enjoy:hover {
+  background-image: url("images/enjoy.webp");
+  
+}
+#img4-enjoy {
+  height:200px;
+}
+#footer {
+   font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+.anc {
+  color: red;
+}

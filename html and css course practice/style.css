@@ -1,0 +1,102 @@
+.img {
+  width: 20%;
+}
+.wel{
+  color:#d85a10f6
+}
+
+
+
+
+.secondtext {
+  color: red;
+  font-size: 30px;
+
+}
+.first {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+  color: black;
+  font-weight: bold;
+}
+.name {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(70, 87, 5);
+  font-weight: bold;
+}
+.ig {
+  font-family:georgia;
+  color:blueviolet
+}
+.btnside {
+  color:rgb(84, 74, 109);
+}
+.btntext {
+  display: inline;
+}
+.btn {
+  --color: #58c013;
+  --hover-color: #cc9f0cf6;
+  
+  display: inline-block;
+  position: relative;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+  color: #ffffff;
+  background-color: var(--color);
+  border: none;
+  border-radius: 4px;
+  
+  box-shadow: 0 0 20px var(--color);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: var(--hover-color);
+  box-shadow: 0 0 35px var(--hover-color), 0 0 50px var(--hover-color);
+}
+ 
+
+body {
+  background-color: #121212;
+}
+
+.secondbtn {
+  --color: #ff007f;
+  --hover-color: #00f0ff;
+  
+  display: inline-block;
+  position: relative;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+  color: #ffffff;
+  background-color: var(--color);
+  border: none;
+  border-radius: 4px;
+  
+  box-shadow: 0 0 20px var(--color);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.secondbtn:hover {
+  color: #ffffff;
+  background-color: var(--hover-color);
+  box-shadow: 0 0 35px var(--hover-color), 0 0 50px var(--hover-color);
+}

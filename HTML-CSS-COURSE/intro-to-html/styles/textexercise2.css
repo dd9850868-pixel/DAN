@@ -1,0 +1,27 @@
+ p {
+    font-family: verdana;
+  }
+  .html {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .beginner {
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(96, 96, 96);
+  }
+  .description {
+    font-size: 25px;
+    width: 450px;
+  }
+  .Get-Started {
+     background-color: rgb(46, 164, 79);
+    border: none;
+    border-radius: 6px;
+    color: white;
+     padding: 10px 20px;
+    margin:0px 8px;
+   
+    
+  }

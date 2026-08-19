@@ -1,0 +1,39 @@
+
+  
+p {
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 0;
+  }
+   .new {
+    color: orangered
+  }
+  .MacBook {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+  }
+  .Supercharged {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 4px;
+    
+
+  }
+  .buy {
+    background-color: rgb(54, 54, 226);
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    display: block;
+    margin: 20px auto;
+  }
+ 
+  .from {
+    color: rgb(39, 39, 39);
+  }

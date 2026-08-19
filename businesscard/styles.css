@@ -1,0 +1,37 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1491466424936-e304919aada7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZHluYW1pYyUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+}
+
+
+
+
+
+.content {
+  display: flex;
+  justify-content:space-around;
+  border: 2px solid #eee133b9;
+  padding: 30px;
+  background-color: rgb(131, 94, 27);
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 10px #eee133b9;
+ 
+  
+  
+}
+ .content:hover {
+  cursor: url('https://cdn.custom-cursor.com/db/27705/32/among-us-show-red-the-captain-pointer.png'), pointer;
+}
+.img {
+  border-radius: 100%;
+  border:1px solid #eee133b9;
+}
+.a:hover {
+  color:  red;
+  text-shadow: 0px 0px 10px red;
+  cursor: url('https://cdn.custom-cursor.com/db/27705/32/among-us-show-red-the-captain-pointer.png') 6 0, pointer;
+}
+
+

@@ -1,0 +1,140 @@
+body {
+  display:flex;
+}
+  
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color:white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.1s;
+    padding: 10px 20px;
+    margin: 0px 8px;
+  }
+  
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+  .join-button {
+    background-color: white;
+    color: blue;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 0px 8px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0px 8px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px 8px;
+    transition: box-shadow 0.6s;
+    
+
+  }
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+
+  .Request-button {
+    background-color: black;
+    color: white;
+    border: none;
+   padding: 10px 20px;
+    margin: 0px 8px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    
+  }
+  .Request-button:hover {
+    opacity: 0.8;
+  
+  }
+  
+  .Request-button:active {
+    opacity: 0.5;
+  }
+
+  .addtocart-button{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    border-radius: 150px;
+    padding: 10px 50px;
+    margin: 0px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: -36px;
+    margin-left: -0.0001px;
+    transition: 0.1;
+
+  
+  }
+
+  .addtocart-button:hover {
+    background-color: rgb(212, 178, 6);
+  }
+
+  .addtocart-button:active {
+    opacity: 0.5;
+  }
+
+
+  .signup-button {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    border-radius: 6px;
+    color: white;
+     padding: 10px 20px;
+    margin: 0px 8px;
+    cursor: pointer;
+    transition: box-shadow 0.6s;
+  }
+  .signup-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+  }
+
+  .download-button {
+    background-color: white;
+    color: rgb(112, 112, 112);
+    border-radius: 6px;
+    border-color: rgb(99, 98, 98);
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0px 8px;
+    cursor: pointer;
+    transition: 0.6s;
+  }
+
+  .download-button:hover {
+     background-color:  rgb(112, 112, 112);
+    color:white;
+    
+  }
+
+

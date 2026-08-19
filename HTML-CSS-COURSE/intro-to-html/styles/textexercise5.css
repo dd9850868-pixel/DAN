@@ -1,0 +1,14 @@
+ p {
+    font-family: arial;
+    margin-bottom: 0;
+    
+
+  }
+  .usd {
+    color: rgb(96, 96, 96);
+    font-size: 18px;
+  }
+  .numbers {
+    font-weight: bold;
+    font-size: 30px;
+  }

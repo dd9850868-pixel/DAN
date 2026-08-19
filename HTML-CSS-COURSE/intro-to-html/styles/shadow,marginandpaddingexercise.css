@@ -1,0 +1,51 @@
+
+  .back {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+.numbers-text {
+  text-decoration: underline;
+  color: purple;
+  margin: 0;
+  display: flex;
+  gap:8px;
+   direction: ltr;
+} 
+.next-button {
+  display: flex;
+  gap: 10px;
+}
+
+.Stretch-button {
+  background-color: green;
+  color: white;
+  margin-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+  cursor: pointer;
+  transition: hover 1s;
+}
+
+
+.Stretch-button:hover {
+  background-color: green;
+  color: white;
+  padding: 12px 24px;
+  transition: transform 0.8s ease-in-out;
+  transform: scale(1.0);
+  border: none;
+
+}
+.Stretch-button:active {
+
+    transform: scale3d(23. 23 0.1s);
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}

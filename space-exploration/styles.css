@@ -1,0 +1,35 @@
+body {
+text-align: center;
+margin: 0;
+background-size: cover;
+color: orange;
+font-family:'Orbitron', sans-serif;
+
+}
+.hero {
+  background-image: url("images/galaxy.webp");
+  width: 100%;
+  padding: 200px 0px;
+  background-size: cover;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  border: 0px;
+  padding: 5px 11px;
+  background-color: white;
+  font-family:'Orbitron', sans-serif;
+  font-weight: 800;
+   color: #82a5ca;
+
+}.btn:hover{
+  background-color: rgb(0, 255, 234);
+  box-shadow: 0px 0px 20px rgb(0, 255, 234);
+}
+.cta {
+  text-decoration: underline;
+  color: #82a5ca;
+}
+#logo {
+  width:100px;
+}
