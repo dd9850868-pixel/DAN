@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <Link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+     <div id="left-side">
+        <h1 class="heading"> Generate a <span style="color: green; padding: 10px 10px  10px 4px;">random password </span> </h1>
+        <p  class="heading" id="text"> Never use an insecure password </p>
+        <div id="btn-area">
+           <button id="select-btn" onclick="toggleOptions()">SELECT PASSWORD TYPE</button>
+               <div id="select-group" class="hidden">
+               <button style="padding: 5px;  color: white; border: none;  border-radius: 5px; background: linear-gradient( rgb(38, 78, 66),rgb(36, 255, 189))" onclick="selectType('letters')">Letters only</button>
+               <button style="padding: 5px;  color: white;  border: none;  border-radius: 5px; background: linear-gradient( rgb(38, 78, 66),rgb(36, 255, 189))" onclick="selectType('symbols')">Symbols only</button>
+               <button style="padding: 5px;  color: white; border: none;  border-radius: 5px; background: linear-gradient( rgb(38, 78, 66),rgb(36, 255, 189))" onclick="selectType('numbers')">Numbers only</button>
+               </div>
+            <button id="btn" onClick="generatePasswords()">Generate passwords</button>  
+        </div>
+        <div class="line"></div>
+          <div class="rect">
+             <div id="left-rectangle" ></div>
+             <div id="right-rectangle"></div>
+          </div>   
+          
+
+   
+     <script src="index.js"></script>
+
+  </body>
+</html>
